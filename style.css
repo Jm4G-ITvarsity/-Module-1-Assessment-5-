@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+}
+
+#menu-bar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+#menu-bar a {
+
+    background-color: rgb(120, 0, 0);
+    border-radius: 8px;
+    font-family: Impact, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: 3px, 3px, 5px black;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#menu-bar a:hover {
+    color: rgb(120, 0, 0);
+    background-color: white;
+}
+
+.gallery img {
+    width: 85%;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    margin-bottom: 18px;
+}
+
+/* The tiles seemed abit overwhelming at full width
+so i brought it down and added this fun pop-up effect on hover
+
+The idea is to have the tile fill the page when hovering over it*/
+.zoom:hover {
+    transform: scale(1.03);
+}
+
+h4 {
+    font-family: Impact, fantasy;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 59, 89);
+    font-style: italic;
+}
+
+h1 {
+    font-family: Impact, fantasy;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(0, 59, 89);
+    font-style: italic;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Cochin';
+}
+
+.hero-info {
+    background-color: rgb(120, 0, 0);
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Container holding the image and the text */
+/* W3 Schools helped with the explanation!! */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    border-radius: 35px;
+}
+
+.top-right {
+    position: absolute;
+    top: 250px;
+    right: 110px;
+    background-color: rgb(120, 0, 0);
+    border-radius: 15px;
+    width: 30%;
+    padding: 30px;
+}
+
+.bottom {
+    background-color: rgb(120, 0, 0);
+    border-radius: 15px;
+    width: 86%;
+    padding: 30px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
